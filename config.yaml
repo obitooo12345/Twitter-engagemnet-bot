@@ -1,0 +1,12 @@
+accounts:
+  - username: "_kaitoai"
+    priority: "high"  # high/medium/low
+  - username: "techcrunch"
+    priority: "medium"
+  - username: "wired"
+    priority: "medium"
+
+settings:
+  cooldown: 20       # Seconds between actions
+  max_retries: 3
+  log_file: "logs/engagement.log"
